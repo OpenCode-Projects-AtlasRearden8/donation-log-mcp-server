@@ -1,4 +1,10 @@
-data/
-node_modules/
+*.pyc
 *.tmp
 .DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+data/
+dist/*.tmp
+node_modules/
