@@ -1,0 +1,26 @@
+{
+  "name": "donation-log-mcp-server",
+  "version": "1.0.0",
+  "description": "Local MCP server for a tidy giving record: log donation drops, condition notes, educational value pointers, photos-kept-here note, printable quarterly summary. JSON storage with path safety and auto-backup, CSV export. No cloud, no accounts.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Asdale Dynamics, LLC",
+  "bin": {
+    "donation-log-mcp-server": "src/server.mjs"
+  },
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "keywords": [
+    "mcp",
+    "donation-log",
+    "local-first",
+    "charity",
+    "quarterly-summary"
+  ]
+}
